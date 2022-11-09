@@ -2053,3 +2053,18 @@ ActionController::RoutingError (No route matches [GET] "/assets/logo.png"):
   
 ActionController::RoutingError (No route matches [GET] "/assets/facebook.png"):
   
+Started GET "/" for 127.0.0.1 at 2022-11-09 12:52:30 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 321)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 5056)
+Completed 200 OK in 23ms (Views: 20.0ms | Allocations: 6246)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/facebook.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/logo.png"):
+  
