@@ -1713,3 +1713,216 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 20ms (Views: 17.0ms | Allocations: 5947)
 
 
+Started GET "/" for 127.0.0.1 at 2022-11-09 12:26:28 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 4770)
+Completed 200 OK in 29ms (Views: 26.9ms | Allocations: 5956)
+
+
+Started GET "/" for 127.0.0.1 at 2022-11-09 12:30:11 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 2407)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 2479)
+Completed 500 Internal Server Error in 21ms (Allocations: 3656)
+
+
+  
+ActionView::Template::Error (The asset "logo.png" is not present in the asset pipeline.
+):
+    4:   <div class ="login-section pt-3">
+    5: 
+    6:     <div class="card text-center pt-5" style="width: 23rem,">
+    7:         <%= image_tag 'logo.png', class: "card-img-top" %>
+    8:       </div>
+    9:       
+   10:     </div>
+  
+app/views/home/index.html.erb:7
+Started GET "/" for 127.0.0.1 at 2022-11-09 12:32:57 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 10.3ms | Allocations: 2388)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 2460)
+Completed 500 Internal Server Error in 25ms (Allocations: 3623)
+
+
+  
+ActionView::Template::Error (The asset "logo.png" is not present in the asset pipeline.
+):
+    4:   <div class ="login-section pt-3">
+    5: 
+    6:     <div class="card text-center pt-5" style="width: 23rem,">
+    7:         <%= image_tag 'logo.png', class: "card-img-top" %>
+    8:       </div>
+    9:       
+   10:     </div>
+  
+app/views/home/index.html.erb:7
+Started GET "/" for 127.0.0.1 at 2022-11-09 12:33:12 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 4941)
+Completed 200 OK in 34ms (Views: 28.6ms | Allocations: 6136)
+
+
+Started GET "/logo.png" for 127.0.0.1 at 2022-11-09 12:33:12 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-11-09 12:33:36 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1238)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 1310)
+Completed 500 Internal Server Error in 23ms (Allocations: 2469)
+
+
+  
+ActionView::Template::Error (The asset "./logo.png" is not present in the asset pipeline.
+):
+    4:   <div class ="login-section pt-3">
+    5: 
+    6:     <div class="card text-center pt-5" style="width: 23rem,">
+    7:         <%= image_tag './logo.png', class: "card-img-top" %>
+    8:       </div>
+    9:       
+   10:     </div>
+  
+app/views/home/index.html.erb:7
+Started GET "/" for 127.0.0.1 at 2022-11-09 12:33:43 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 4938)
+Completed 200 OK in 34ms (Views: 31.1ms | Allocations: 6128)
+
+
+Started GET "/logo.png" for 127.0.0.1 at 2022-11-09 12:33:43 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-11-09 12:33:52 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 46)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 4349)
+Completed 200 OK in 15ms (Views: 13.0ms | Allocations: 4820)
+
+
+Started GET "/logo.png" for 127.0.0.1 at 2022-11-09 12:33:52 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-11-09 12:35:16 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2099)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2171)
+Completed 500 Internal Server Error in 16ms (Allocations: 3317)
+
+
+  
+ActionView::Template::Error (The asset "assets/logo.png" is not present in the asset pipeline.
+):
+    4:   <div class ="login-section pt-3">
+    5: 
+    6:     <div class="card text-center pt-5" style="width: 23rem,">
+    7:         <%= image_tag 'assets/logo.png', class: "card-img-top" %>
+    8:       </div>
+    9:       
+   10:     </div>
+  
+app/views/home/index.html.erb:7
+Started GET "/" for 127.0.0.1 at 2022-11-09 12:35:23 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.1ms | Allocations: 2102)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 2174)
+Completed 500 Internal Server Error in 18ms (Allocations: 3321)
+
+
+  
+ActionView::Template::Error (The asset "assets/images/logo.png" is not present in the asset pipeline.
+):
+    4:   <div class ="login-section pt-3">
+    5: 
+    6:     <div class="card text-center pt-5" style="width: 23rem,">
+    7:         <%= image_tag 'assets/images/logo.png', class: "card-img-top" %>
+    8:       </div>
+    9:       
+   10:     </div>
+  
+app/views/home/index.html.erb:7
+Started GET "/" for 127.0.0.1 at 2022-11-09 12:35:30 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 23.8ms | Allocations: 4938)
+Completed 200 OK in 32ms (Views: 28.3ms | Allocations: 6116)
+
+
+Started GET "/logo.png" for 127.0.0.1 at 2022-11-09 12:35:30 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-11-09 12:36:08 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 201)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 4847)
+Completed 200 OK in 23ms (Views: 19.7ms | Allocations: 6025)
+
+
+Started GET "/home-phone-bg.jpg" for 127.0.0.1 at 2022-11-09 12:36:08 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/home-phone-bg.jpg"):
+  
+Started GET "/" for 127.0.0.1 at 2022-11-09 12:36:14 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 2387)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2459)
+Completed 500 Internal Server Error in 15ms (Allocations: 3616)
+
+
+  
+ActionView::Template::Error (The asset "home-phone-bg.jpg" is not present in the asset pipeline.
+):
+    4:   <div class ="login-section pt-3">
+    5: 
+    6:     <div class="card text-center pt-5" style="width: 23rem,">
+    7:         <%= image_tag 'home-phone-bg.jpg', class: "card-img-top" %>
+    8:       </div>
+    9:       
+   10:     </div>
+  
+app/views/home/index.html.erb:7
+Started GET "/" for 127.0.0.1 at 2022-11-09 12:36:31 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 4938)
+Completed 200 OK in 31ms (Views: 28.2ms | Allocations: 6126)
+
+
+Started GET "/logo.png" for 127.0.0.1 at 2022-11-09 12:36:31 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
