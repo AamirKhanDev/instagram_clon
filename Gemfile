@@ -42,6 +42,14 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
+# Import bootstrap
+gem 'bootstrap', '~> 5.2.2'
+
+# Import jquery
+gem "jquery-rails", "~> 4.3"
+
+#Import turbolinks
+gem 'turbolinks', '~> 5.2.0'
 # Use Sass to process CSS
 # gem "sassc-rails"
 
