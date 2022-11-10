@@ -2302,3 +2302,440 @@ Started GET "/facebook.png" for 127.0.0.1 at 2022-11-09 13:10:24 +0000
   
 ActionController::RoutingError (No route matches [GET] "/facebook.png"):
   
+Started GET "/" for ::1 at 2022-11-10 09:17:51 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 30.3ms | Allocations: 626)
+  Rendered layout layouts/application.html.erb (Duration: 4620.5ms | Allocations: 87113)
+Completed 200 OK in 4719ms (Views: 4638.4ms | ActiveRecord: 0.0ms | Allocations: 92767)
+
+
+Started GET "/logo.png" for ::1 at 2022-11-10 09:17:57 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:17:57 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 09:18:02 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 4487)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 4962)
+
+
+Started GET "/logo.png" for ::1 at 2022-11-10 09:18:02 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:18:02 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 09:18:21 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 62.6ms | Allocations: 4486)
+Completed 200 OK in 74ms (Views: 66.1ms | ActiveRecord: 0.0ms | Allocations: 4968)
+
+
+Started GET "/" for ::1 at 2022-11-10 09:18:21 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 4394)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 4871)
+
+
+Started GET "/logo.png" for ::1 at 2022-11-10 09:18:21 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/logo.png" for ::1 at 2022-11-10 09:18:22 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:18:22 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:18:22 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 09:18:43 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 626)
+  Rendered layout layouts/application.html.erb (Duration: 215.1ms | Allocations: 39454)
+Completed 200 OK in 308ms (Views: 236.3ms | ActiveRecord: 0.0ms | Allocations: 45103)
+
+
+Started GET "/logo.png" for ::1 at 2022-11-10 09:18:44 +0000
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:18:44 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 09:18:45 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 4490)
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.0ms | Allocations: 4961)
+
+
+Started GET "/logo.png" for ::1 at 2022-11-10 09:18:45 +0000
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:18:45 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 09:19:28 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 847.9ms | Allocations: 34350)
+Completed 200 OK in 851ms (Views: 848.7ms | ActiveRecord: 0.0ms | Allocations: 34822)
+
+
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:19:29 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/logo.png" for ::1 at 2022-11-10 09:19:29 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 09:21:24 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 323)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 5067)
+Completed 200 OK in 45ms (Views: 42.3ms | ActiveRecord: 0.0ms | Allocations: 6246)
+
+
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:21:24 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/logo.png" for ::1 at 2022-11-10 09:21:24 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 09:21:27 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 19.4ms | Allocations: 320)
+  Rendered layout layouts/application.html.erb (Duration: 36.6ms | Allocations: 5017)
+Completed 200 OK in 63ms (Views: 61.4ms | ActiveRecord: 0.0ms | Allocations: 6205)
+
+
+Started GET "/logo.png" for ::1 at 2022-11-10 09:21:27 +0000
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:21:27 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 09:22:34 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (8.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 626)
+  Rendered layout layouts/application.html.erb (Duration: 902.6ms | Allocations: 48131)
+Completed 200 OK in 957ms (Views: 915.9ms | ActiveRecord: 0.0ms | Allocations: 53774)
+
+
+Started GET "/logo.png" for ::1 at 2022-11-10 09:22:36 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:22:36 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 09:24:52 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 626)
+  Rendered layout layouts/application.html.erb (Duration: 304.6ms | Allocations: 39315)
+Completed 200 OK in 408ms (Views: 350.0ms | ActiveRecord: 0.0ms | Allocations: 44968)
+
+
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:24:53 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/logo.png" for ::1 at 2022-11-10 09:24:53 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 09:24:55 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 4485)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.0ms | Allocations: 4959)
+
+
+Started GET "/logo.png" for ::1 at 2022-11-10 09:24:55 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:24:56 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+  [1m[36mActiveRecord::InternalMetadata Load (2.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2022-11-10 09:26:03 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 626)
+  Rendered layout layouts/application.html.erb (Duration: 327.5ms | Allocations: 39557)
+Completed 200 OK in 388ms (Views: 339.2ms | ActiveRecord: 0.0ms | Allocations: 45204)
+
+
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:26:04 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/logo.png" for ::1 at 2022-11-10 09:26:04 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 09:26:05 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 4489)
+Completed 200 OK in 16ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 4966)
+
+
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:26:06 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/logo.png" for ::1 at 2022-11-10 09:26:06 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 09:26:07 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 4489)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 4963)
+
+
+Started GET "/logo.png" for ::1 at 2022-11-10 09:26:07 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:26:07 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 09:50:29 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 51.4ms | Allocations: 626)
+  Rendered layout layouts/application.html.erb (Duration: 449.5ms | Allocations: 39108)
+Completed 200 OK in 566ms (Views: 483.2ms | ActiveRecord: 0.0ms | Allocations: 44761)
+
+
+Started GET "/logo.png" for ::1 at 2022-11-10 09:50:31 +0000
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:50:31 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 09:51:22 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 4419)
+Completed 200 OK in 32ms (Views: 29.7ms | ActiveRecord: 0.0ms | Allocations: 4898)
+
+
+Started GET "/facebook.png" for ::1 at 2022-11-10 09:51:22 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/logo.png" for ::1 at 2022-11-10 09:51:22 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 10:02:19 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 50.3ms | Allocations: 4423)
+Completed 200 OK in 58ms (Views: 51.0ms | Allocations: 4882)
+
+
+Started GET "/logo.png" for ::1 at 2022-11-10 10:02:20 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/facebook.png" for ::1 at 2022-11-10 10:02:21 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 10:02:23 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 4396)
+Completed 200 OK in 15ms (Views: 13.2ms | Allocations: 4867)
+
+
+Started GET "/facebook.png" for ::1 at 2022-11-10 10:02:23 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/logo.png" for ::1 at 2022-11-10 10:02:23 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 10:06:30 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 45.6ms | Allocations: 5277)
+  Rendered layout layouts/application.html.erb (Duration: 47.1ms | Allocations: 5362)
+Completed 500 Internal Server Error in 190ms (ActiveRecord: 0.0ms | Allocations: 10952)
+
+
+  
+ActionView::Template::Error (undefined method `avatar_url' for #<ActionView::Base:0x0000000000c238>):
+    1: <div class="row justify-content-md-center profile-wrapper">
+    2:   <div class="col-md-4 text-center">
+    3:     <%= image_tag avatar_url(@user), width: '152', height: '152', class: "round-img" %>
+    4:   </div>
+    5:   <div class="col-md-8">
+    6:     <div class="row">
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-11-10 10:06:42 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.4ms | Allocations: 353)
+  Rendered layout layouts/application.html.erb (Duration: 334.7ms | Allocations: 39131)
+Completed 200 OK in 348ms (Views: 341.4ms | ActiveRecord: 0.0ms | Allocations: 40344)
+
+
+Started GET "/logo.png" for ::1 at 2022-11-10 10:06:43 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/facebook.png" for ::1 at 2022-11-10 10:06:44 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 10:08:00 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 4395)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 4866)
+
+
+Started GET "/logo.png" for ::1 at 2022-11-10 10:08:00 +0000
+Started GET "/facebook.png" for ::1 at 2022-11-10 10:08:00 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 10:08:01 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 4488)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 4959)
+
+
+Started GET "/facebook.png" for ::1 at 2022-11-10 10:08:01 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/logo.png" for ::1 at 2022-11-10 10:08:01 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/" for ::1 at 2022-11-10 10:08:03 +0000
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 4398)
+Completed 200 OK in 29ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 4875)
+
+
+Started GET "/logo.png" for ::1 at 2022-11-10 10:08:03 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/facebook.png" for ::1 at 2022-11-10 10:08:03 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
+Started GET "/" for 127.0.0.1 at 2022-11-10 10:48:18 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 626)
+  Rendered layout layouts/application.html.erb (Duration: 500.1ms | Allocations: 38802)
+Completed 200 OK in 559ms (Views: 514.1ms | ActiveRecord: 0.0ms | Allocations: 44447)
+
+
+Started GET "/logo.png" for 127.0.0.1 at 2022-11-10 10:48:19 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/logo.png"):
+  
+Started GET "/facebook.png" for 127.0.0.1 at 2022-11-10 10:48:20 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/facebook.png"):
+  
