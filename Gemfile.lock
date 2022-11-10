@@ -212,8 +212,8 @@ GEM
     zeitwerk (2.6.6)
 
 PLATFORMS
+  bundle lock-unknown
   x86_64-darwin-21
-  bundle lock--add-platform x86_64-linux
 
 DEPENDENCIES
   bootsnap
@@ -235,7 +235,7 @@ DEPENDENCIES
   webdrivers
 
 RUBY VERSION
-   ruby 3.0.1p0
+   ruby 3.0.0p0
 
 BUNDLED WITH
-   2.2.15
+   2.3.25

@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: white;
-  height: auto;
+  height: 100%;
 }
 
 .home-sections {
@@ -19,7 +19,7 @@ body {
 }
 
 .images-section {
-  background-image: url(home-phone-bg.jpg);
+  background-image: url("home-phone-bg.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   max-width: 100%;
